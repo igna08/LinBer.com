@@ -11,7 +11,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            background: linear-gradient(135deg, #000 25%, #333 100%);
+            background-color: #000;
             color: #FFF;
             overflow: hidden;
         }
@@ -25,20 +25,24 @@
             position: relative;
         }
         .logo {
-            width:60%;
+            width: 60%;
             max-width: 400px;
             animation: fadeIn 1.5s ease-in-out, scaleUp 1.5s ease-in-out;
         }
         .title {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin-top: 20px;
-            color: #00CCCC;
+            color: #00FFFF;
+            font-weight: 700;
+            letter-spacing: 1.5px;
             animation: fadeInUp 2s ease-in-out;
         }
         .subtitle {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             color: #FFF;
             margin-top: 10px;
+            font-weight: 400;
+            letter-spacing: 1px;
             animation: fadeInUp 2.5s ease-in-out;
         }
         .countdown {
@@ -50,7 +54,7 @@
             animation: fadeInUp 3s ease-in-out;
         }
         .countdown div {
-            background: #FFF;
+            background: #00FFFF;
             color: #000;
             padding: 20px 30px;
             border-radius: 10px;
@@ -59,7 +63,7 @@
             animation: rotate3D 5s infinite linear;
         }
         .footer {
-            background: #333;
+            background: #111;
             text-align: center;
             padding: 20px 0;
             position: absolute;
@@ -91,7 +95,7 @@
 </head>
 <body>
     <div class="container">
-        <img src='/assets/linber.png' alt="LinBerAI Logo" class="logo">
+        <img src='https://i.postimg.cc/C56qnDLR/Linber-ai.png' alt="LinBerAI Logo" class="logo">
         <h1 class="title">Coming Soon: LinBer</h1>
         <h2 class="subtitle">La startup que revolucionará la asistencia al cliente</h2>
         <div class="countdown" id="countdown">
